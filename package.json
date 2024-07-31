@@ -5,7 +5,8 @@
   "main": "admin/server.js",
   "scripts": {
     "start": "node admin/server.js",
-     "build": "[my-framework] build --output public"
+    "build": "webpack",
+    "watch": "webpack --watch"
   },
   "dependencies": {
     "express": "^4.19.2",
