@@ -1,0 +1,17 @@
+{
+  "name": "admin",
+  "version": "1.0.0",
+  "description": "A project deploying serverless functions to Vercel",
+  "main": "admin/server.js",
+  "scripts": {
+    "start": "node admin/server.js",
+    "build": "echo 'No build step for serverless function'"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "serverless-http": "^2.7.0"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
