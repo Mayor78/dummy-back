@@ -5,7 +5,7 @@
   "main": "admin/server.js",
   "scripts": {
     "start": "node admin/server.js",
-    "build": "echo 'No build step for serverless function'"
+     "build": "[my-framework] build --output public"
   },
   "dependencies": {
     "express": "^4.19.2",
